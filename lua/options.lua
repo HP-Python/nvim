@@ -35,8 +35,7 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 opt.cursorline = true -- highlight the cursor line
 opt.wrap = false
-
-
+opt.background = 'dark'
 
 -- window split
 opt.splitright = true

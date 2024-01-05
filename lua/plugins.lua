@@ -16,14 +16,12 @@ return require('packer').startup(function(use)
     if packer_bootstrap then
       require('packer').sync()
     end
-
     -- packer can manage itself
     use 'wbthomason/packer.nvim'
     -- install and use theme
-    use 'folke/tokyonight.nvim'
-    use "bluz71/vim-nightfly-colors"
+    use {'catppuccin/nvim', as = "catppuccin"}
     -- plugins
-    use 'rstacruz/vim-closer'
-
+    use 'neovim/nvim-lspconfig'
+    use 'nvim-lua/completion-nvim'
 end)
 

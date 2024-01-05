@@ -15,6 +15,8 @@ keymap.set('n', '<leader>h', '<C-w>h', opts)
 keymap.set('n', '<leader>j', '<C-w>j', opts)
 keymap.set('n', '<leader>l', '<C-w>l', opts)
 keymap.set('n', '<leader>k', '<c-w>k', opts)
+-- run python script
+keymap.set('n', '<leader>r', ':!python %<CR>', opts)
 ---------  visaul mode ------------
 -- '< first line of the last selection
 -- +1 position 
