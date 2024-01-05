@@ -45,4 +45,3 @@ opt.splitbelow = true
 -- search
 
 
-
